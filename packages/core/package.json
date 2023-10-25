@@ -1,7 +1,16 @@
 {
   "name": "@babyuewjs/core",
   "private": false,
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.0",
+  "description": "Vue3 componets for create 3D Scenes using Babylon.js",
+  "author": "drumath2237",
+  "bugs": {
+    "url": "https://github.com/drumath2237/BabyuewJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drumath2237/BabyuewJS"
+  },
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
