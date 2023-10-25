@@ -1,16 +1,17 @@
 {
   "name": "@babyuewjs/core",
-  "private": true,
+  "private": false,
   "version": "1.0.0-alpha.1",
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
   "files": [
-    "./dist"
+    "dist"
   ],
   "exports": {
     ".": {
       "import": "./dist/index.js",
+      "style": "./dist/style.css",
       "require": "./dist/index.umd.cjs"
     }
   },

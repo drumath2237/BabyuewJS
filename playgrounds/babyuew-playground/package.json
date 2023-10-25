@@ -12,6 +12,7 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
+    "@babyuewjs/core": "workspace:1.0.0-alpha.1",
     "@vitejs/plugin-vue": "^4.2.3",
     "sass": "^1.69.4",
     "typescript": "^5.0.2",

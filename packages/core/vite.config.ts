@@ -15,9 +15,10 @@ export default defineConfig(({ mode }) => {
         }),
       ],
       build: {
+        cssCodeSplit: true,
         lib: {
           entry: resolve(__dirname, "src/index.ts"),
-          name: "vue-babylon-investigation",
+          name: "@babyuewjs/core",
           fileName: "index",
           formats: ["es", "umd"],
         },
