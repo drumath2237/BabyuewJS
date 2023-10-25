@@ -24,6 +24,6 @@ import {
       :intensity="1"
     ></DirectionalLight>
 
-    <Box name="my-box" :position="[-0.1, 0.05, 0]" :size="0.1"> </Box>
+    <Box name="my-box" :position="[0, 0.05, 0]" :size="0.1"> </Box>
   </BabyuewScene>
 </template>

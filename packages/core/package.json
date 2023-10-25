@@ -11,7 +11,6 @@
   "exports": {
     ".": {
       "import": "./dist/index.js",
-      "style": "./dist/style.css",
       "require": "./dist/index.umd.cjs"
     }
   },

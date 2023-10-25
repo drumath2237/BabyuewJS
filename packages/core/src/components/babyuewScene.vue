@@ -15,6 +15,14 @@ onMounted(() => {
     return;
   }
 
+  renderCanvas.value.style.width = "100%";
+  renderCanvas.value.style.height = "100%";
+  renderCanvas.value.style.padding = "0";
+  renderCanvas.value.style.margin = "0";
+  renderCanvas.value.style.border = "none !important";
+  renderCanvas.value.style.outline = "none !important";
+  renderCanvas.value.style.display = "block";
+
   const engine = new Engine(renderCanvas.value, props.antialias);
   scene = new Scene(engine);
 
@@ -35,15 +43,3 @@ onMounted(() => {
   <canvas id="renderCanvas" ref="renderCanvas"></canvas>
   <slot></slot>
 </template>
-
-<style scoped lang="scss">
-#renderCanvas {
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  border: none !important;
-  outline: none !important;
-  display: block;
-}
-</style>
