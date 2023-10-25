@@ -1,8 +1,20 @@
 {
   "name": "@babyuewjs/core",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0-alpha.1",
   "type": "module",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "files": [
+    "./dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vite",
     "compile": "vue-tsc",
