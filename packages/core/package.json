@@ -1,7 +1,7 @@
 {
   "name": "@babyuewjs/core",
   "private": false,
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "Vue3 componets for create 3D Scenes using Babylon.js",
   "author": "drumath2237",
   "license": "Apache-2.0",
