@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "version:set": "lerna version",
+    "publish:new": "lerna publish"
   },
   "keywords": [],
   "author": "",
   "license": "Apache-2.0",
   "devDependencies": {
     "@lerna-lite/cli": "^2.6.0",
+    "@lerna-lite/publish": "^2.6.0",
+    "@lerna-lite/version": "^2.6.0",
     "turbo": "^1.10.16"
   }
 }
+
