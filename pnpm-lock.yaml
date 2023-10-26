@@ -68,7 +68,7 @@ importers:
         version: 3.3.6(typescript@5.2.2)
     devDependencies:
       '@babyuewjs/core':
-        specifier: workspace:1.0.0-alpha.1
+        specifier: workspace:*
         version: link:../../packages/core
       '@vitejs/plugin-vue':
         specifier: ^4.2.3
