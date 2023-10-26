@@ -1,1 +1,1 @@
-# BabyuewJS
+./packages/core/README.md

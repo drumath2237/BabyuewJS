@@ -1,13 +1,13 @@
 # BabyuewJS
 
-English | [日本語](./README.ja.md)
+[English](./README.md) | 日本語
 
 ![npm](https://img.shields.io/npm/v/%40babyuewjs%2Fcore) ![NPM](https://img.shields.io/npm/l/%40babyuewjs%2Fcore)
 
 ## About
 
-BabyuewJS is a library for developing Web 3D applications using Babylon.js and Vue3.
-It provides a better developer experience by combining Babylon.js' capabilities for building and rendering 3D scenes with Vue3's powerful features such as SFC and reactivity.
+BabyuewJSはBabylon.jsとVue3を使ってWeb 3Dアプリケーションを開発するためのライブラリです。
+Babylon.jsが備える3Dシーン構築・レンダリングのための機能と、Vue3が備えるSFCやリアクティビティといった強力な機能とをかけ合わせることで、より良い開発体験を提供します。
 
 ## Enviroment
 
@@ -31,8 +31,8 @@ pnpm add -D @babyuewjs/core
 
 ## Usage
 
-In an existing project using Vue3, a canvas for rendering the Babylon.js scene is placed by placing a `BabyuewScene` component,
-The components for Babylon.js objects will be placed in its slots.
+既存のVue3を使用したプロジェクトにおいて、`BabyuewScene`コンポーネントを配置することでBabylon.jsのシーンをレンダリングするためのcanvasが配置され、
+その`slots`にBabylon.jsのオブジェクト用コンポーネントを配置していきます。
 
 ```html
 <script setup lang="ts">
