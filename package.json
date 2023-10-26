@@ -9,6 +9,7 @@
   "author": "",
   "license": "Apache-2.0",
   "devDependencies": {
+    "@lerna-lite/cli": "^2.6.0",
     "turbo": "^1.10.16"
   }
 }
